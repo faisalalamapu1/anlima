@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<ul id="myUL">
+
+  <li><a href="#"><button type="button" class="collapsible">SaCos</button>
+    <div class="content">
+      <div class="form-group ">
+        <label for="inputName" class="col-md-1 control-label">SaCos off</label>  
+        <div class="col-md-5">
+            <div class="checkbox">
+              <input type="checkbox" id="checkbox1zaal1"  onclick="save()"/>
+                <label for="packers" class="strikethrough">Nozzle Cooling Water Pump off</label>
+                <input type="checkbox" name="packersOff" id="packers" value="1"/>
+                <label for="packers" class="strikethrough">Fuel Selection Breaker on</label>
+            </div>
+         </div>
+    </div>
+    </div></a>
+  </li>
+
+  <li><a href="#"><button type="button" class="collapsible">HPTC Wet Wash</button>
+    <div class="content">
+      <div class="form-group ">
+        <label for="inputName" class="col-md-1 control-label">SaCos off</label>  
+        <div class="col-md-5">
+            <div class="checkbox">
+                <input type="checkbox" name="packersOff" id="packers" value="1" id="checkbox1zaal1" onclick="save()"/>
+                <label for="packers" class="strikethrough">Nozzle Cooling Water Pump off</label>
+                <input type="checkbox" name="packersOff" id="packers" value="1"/>
+                <label for="packers" class="strikethrough">Fuel Selection Breaker on</label>
+                
+            </div>
+         </div>
+    </div>
+    </div></a>
+  </li>
+
+  
+</ul>
+
+      <script src="script.js"></script>
+</body>
+</html>
